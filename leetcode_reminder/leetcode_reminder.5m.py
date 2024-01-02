@@ -7,7 +7,7 @@
 # <xbar.desc>Leetcode reminder and status in your memu bar!</xbar.desc>
 # <xbar.dependencies>python3</xbar.dependencies>
 # <xbar.image>https://raw.githubusercontent.com/zihengjackchen/xbar-scripts/main/leetcode_reminder/demo.png</xbar.image>
-# <xbar.abouturl>https://github.com/zihengjackchen/xbar-scripts/blob/main/leetcode/README.md</xbar.abouturl>
+# <xbar.abouturl>https://github.com/zihengjackchen/xbar-scripts/blob/main/leetcode_reminder/README.md</xbar.abouturl>
 
 # Potential alternative way to access API
 # import cloudscraper
@@ -56,10 +56,10 @@ countdown_alt = "⌛ {} hr {} min".format(hours, minutes)
 countdown_full = "⌛ {} hours {} minutes".format(hours, minutes)
 
 countdown_color = ""
-if hours <= 2:
-  countdown_color = f" | color={'darkorange' if not dark_mode_status else color_medium}"
-elif hours == 0:
+if hours == 0:
   countdown_color = f" | color={'darkred' if not dark_mode_status else color_hard}"
+elif hours <= 2:
+  countdown_color = f" | color={'darkorange' if not dark_mode_status else color_medium}"
 
 
 # Setting up for API call
