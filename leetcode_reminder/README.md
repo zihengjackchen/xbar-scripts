@@ -19,13 +19,17 @@ The "Leetcode Reminder" xbar script is designed to motivate and remind you to co
 
 ## Configuration
 
-Before using the script, make sure to configure the following variables at the beginning of the script:
+Before using the script, make sure to configure the following variables by either:
+- Filling them in the xbar plugin browser if it's used with xbar
+![xbar-plugin-browser](xbar-plugin-browser.png)
+- Or filling them manually if it's used alone 
+   ```python
+   USERNAME = ""
+   LEETCODE_SESSION = ""
+   CSRFTOKEN = ""
+   ```
 
-```python
-USERNAME = "your_leetcode_username"
-LEETCODE_SESSION = "your_leetcode_session_cookie"
-CSRFTOKEN = "your_csrf_token"
-```
+## Variables
 - `USERNAME`: Your leetcode username. Your homepage should be at `https://leetcode.com/<USERNAME>/`
 - `LEETCODE_SESSION` and `CSRFTOKEN`: Go to `leetcode.com` and inspect the network tab. In the Request headers section, you will find two keys `csrftoken` and `LEETCODE_SESSION`. You should copy these values (without the `=` or `;`) into the script. ![how_to_get_tokens](how_to_get_tokens.png)
 
