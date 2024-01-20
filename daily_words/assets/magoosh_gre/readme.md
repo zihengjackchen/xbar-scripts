@@ -1,0 +1,1 @@
+source: https://s3.amazonaws.com/magoosh.resources/magoosh-gre-1000-words_oct01.pdf
