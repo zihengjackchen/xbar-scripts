@@ -2,19 +2,17 @@
   {
     "term": "256",
     "explanations": [
-      "This is 2 to the 8th power. It is the number of different numbers that you can store in a byte (8 bits), usually  ranging from 0 to 255. An 8 bit number can be represented by two hexadecimal digits or three octal digits.  (see ASCII)"
+      "This is 2 to the 8th power. It is the number of different numbers that you can store in a byte (8 bits), usually ranging from 0 to 255. An 8-bit number can be represented by two hexadecimal digits or three octal digits. (see ASCII)"
     ]
   },
   {
     "term": "AI",
-    "explanations": [
-      "Artificial Intelligence."
-    ]
+    "explanations": ["Artificial Intelligence."]
   },
   {
     "term": "ASCII",
     "explanations": [
-      "Pronounced ass-key. Stands for the American Standard Code for Information Interchange. It is a 7bit codefor characters. For example: the letter 'x' is represented as 1111000. Because it is only 7 bits long, an ASCIIcharacter can be stored in a byte."
+      "Pronounced ass-key. Stands for the American Standard Code for Information Interchange. It is a 7-bit code for characters. For example: the letter 'x' is represented as 1111000. Because it is only 7 bits long, an ASCII character can be stored in a byte."
     ]
   },
   {
@@ -27,7 +25,13 @@
     "term": "Address",
     "explanations": [
       "a) A location in memory or identifying a particular piece of memory.",
-      "b) An identification that allowsaccess to something such as an internet address which allows one to access a device on the internet. Agent Based Modeling - A method of simulating the real world in which individual agents interact with their environment and each other to simulate real world behaviors and conditions. NetLogo is good at Agent Based Modeling."
+      "b) An identification that allows access to something such as an internet address which allows one to access a device on the internet."
+    ]
+  },
+  {
+    "term": "Agent-Based Modeling",
+    "explanations": [
+      "A method of simulating the real world in which individual agents interact with their environment and each other to simulate real-world behaviors and conditions. NetLogo is good at Agent-Based Modeling."
     ]
   },
   {
@@ -50,14 +54,18 @@
   },
   {
     "term": "Application",
-    "explanations": [
-      "A runnable program that provides some service."
-    ]
+    "explanations": ["A runnable program that provides some service."]
   },
   {
     "term": "Argument",
     "explanations": [
-      "One of the pieces of data provided as input to a procedure or function through the call to the procedure or function. Artificial Intelligence - The subfield of computer science that involves the creation of programs that attempt to do  what was formerly believed to only be able to be done by humans."
+      "One of the pieces of data provided as input to a procedure or function through the call to the procedure or function."
+    ]
+  },
+  {
+    "term": "Artificial Intelligence",
+    "explanations": [
+      "The subfield of computer science that involves the creation of programs that attempt to do what was formerly believed to only be able to be done by humans."
     ]
   },
   {
@@ -68,63 +76,74 @@
   },
   {
     "term": "Autonomous",
-    "explanations": [
-      "Controlled by computer programs and not people."
-    ]
+    "explanations": ["Controlled by computer programs and not people."]
   },
   {
     "term": "Bandwidth",
     "explanations": [
-      "Refers to the volume of information that can be transmitted or processed. It is usually measured inbits or bytes per time unit like 'bits per second'. Big Data - The problem beginning in the 21st century of processing vast amounts of data coming at or refreshingat very high speed. For example satellite sensor data, city monitoring sensors, gene sequencing data, etc."
+      "Refers to the volume of information that can be transmitted or processed. It is usually measured in bits or bytes per time unit like 'bits per second'."
     ]
   },
   {
+    "term": "Big Data",
+    "explanations": [
+      "The problem beginning in the 21st century of processing vast amounts of data coming at or refreshing at very high speed. For example satellite sensor data, city monitoring sensors, gene sequencing data, etc."
+    ]
+  },
+
+  {
     "term": "Binary",
     "explanations": [
-      "The base 2 number system. Integer can be encoded as binary which is a string of 0's and 1's. Binary isa place-value system in which each bit position denotes a power of 2 (unlike decimal which uses 10 symbolsand powers of 10). k bits of information can represent 2k different numbers. For example counting in 3 bits ofbinary you can count from 0 to 7: 000, 001, 010, 011, 100, 101, 110, 111."
+      "The base 2 number system. Integer can be encoded as binary which is a string of 0's and 1's. Binary is a place-value system in which each bit position denotes a power of 2 (unlike decimal which uses 10 symbols and powers of 10). k bits of information can represent 2k different numbers. For example, counting in 3 bits of binary you can count from 0 to 7: 000, 001, 010, 011, 100, 101, 110, 111."
     ]
   },
   {
     "term": "Bit",
     "explanations": [
-      "A binary digit. The smallest unit of information represented by one of two states (usually 0 or 1). It is often denoted by a lower case 'b' as in Mbs (mega-bits per second). Or the amount of information gained when answering a yes or no question."
+      "A binary digit. The smallest unit of information is represented by one of two states (usually 0 or 1). It is often denoted by a lowercase 'b' as in Mbs (megabits per second). Or the amount of information gained when answering a yes or no question."
     ]
   },
   {
     "term": "Block",
     "explanations": [
-      "A collection of statements that can be grouped together to be treated as one statement. For instance in Cand Processing statements inside parentheses are treated as one statement that is either executed together ornot. Generally the only 'entry' into a block of code is at the top of the code."
+      "A collection of statements that can be grouped to be treated as one statement. For instance in Cand Processing statements inside parentheses are treated as one statement that is either executed together or not. Generally, the only 'entry' into a block of code is at the top of the code."
     ]
   },
   {
     "term": "Boolean",
     "explanations": [
-      "A type in many programming languages that can hold either a True or a False. The name comes from themathematician George Boole. It can also refer to the type of expression for example the type of the expressionx > 6 is Boolean. Boot Program - The program run when the computer hardware is powered up."
+      "A type in many programming languages that can hold either a True or a False. The name comes from the mathematician George Boole. It can also refer to the type of expression for example the type of the expression> 6 is Boolean."
+    ]
+  },
+  {
+    "term": "Boot Program",
+    "explanations": [
+      "The program runs when the computer hardware is powered up."
     ]
   },
   {
     "term": "Boot",
     "explanations": [
-      "To restart a computer as if the computer had been powered down regardless of whether it was on and runningor not."
+      "To restart a computer as if the computer had been powered down regardless of whether it was on and running or not."
     ]
   },
   {
     "term": "Broadcast",
     "explanations": [
-      "In messaging passing it is to send the same message to all who can listen as opposed to peer-to-peercommunication for instance."
+      "In messaging passing it is to send the same message to all who can listen as opposed to peer-to-peer communication for instance."
     ]
   },
   {
     "term": "Bus",
     "explanations": [
-      "a) the main path for bits traveling in parallel in and out of a CPU or between major computational, storage,and device components. It is often many bits wide.",
+      "a) the main path for bits traveling in parallel in and out of a CPU or between major computational, storage, and device components. It is often many bits wide.",
       "b) Any pathway for bits to travel in parallel."
     ]
   },
   {
     "term": "Byte",
     "explanations": [
-      "8 bits. It is often denoted by a capital B as in MB (mega-bytes)."
+      "8 bits. It is often denoted by a capital B as in MB (megabytes)."
     ]
   },
   {
@@ -136,64 +155,74 @@
   {
     "term": "CPU",
     "explanations": [
-      "Central Processing Unit. Where the computer instructions are executed. It usually refers to the generalpurpose processor that handles a range of processing tasks. CPU intensive - A program that spends most of its time running on the CPU with a disproportionately smallamount of time waiting for data from memory."
+      "Central Processing Unit. Where the computer instructions are executed. It usually refers to the general-purpose processor that handles a range of processing tasks."
+    ]
+  },
+  {
+    "term": "CPU intensive",
+    "explanations": [
+      "A program that spends most of its time running on the CPU with a disproportionately small amount of time waiting for data from memory."
     ]
   },
   {
     "term": "Cache",
     "explanations": [
-      "Is memory used to speed memory access, that stores data that is anticipated to be used next or was justused and may be used again. For example: cache may exist on slow physically rotating discs to save informationof data that is near to the data just accessed or to hold data without writing it to disc until it is likely not tochange again."
+      "Is memory used to speed memory access, that stores data that is anticipated to be used next or was just used and may be used again? For example, cache may exist on slow physically rotating discs to save information of data that is near to the data just accessed or to hold data without writing it to disc until it is likely not to change again."
     ]
   },
   {
     "term": "Card",
     "explanations": [
-      "A circuit board which can be plugged into your computer motherboard. Central Processing Unit - Processing unit that takes streams of bits as data and instructions and executes theinstructions on the data yielding more data and possibly instructions."
+      "A circuit board which can be plugged into your computer motherboard."
+    ]
+  },
+  {
+    "term": "Central Processing Unit",
+    "explanations": [
+      "Processing unit that takes streams of bits as data and instructions and executes the instructions on the data yielding more data and possibly instructions."
     ]
   },
   {
     "term": "Character",
     "explanations": [
-      "A single letter or symbol that is represented by a small set of bytes in the computer. See ASCII andUnicode."
+      "A single letter or symbol that is represented by a small set of bytes in the computer. See ASCII and Unicode."
     ]
   },
   {
     "term": "Chip",
     "explanations": [
-      "A integrated electronic circuit generally with from thousands to billions of components such as transistorsand capacitors that perform complex functionality such as addressable memory, CPU, I/O functions."
+      "An integrated electronic circuit generally with from thousands to billions of components such as transistors and capacitors that perform complex functionality such as addressable memory, CPU, I/O functions."
     ]
   },
   {
     "term": "Clock",
     "explanations": [
-      "The internal 'drummer' or heartbeat that keeps the CPU activities across the chip and across the moth-erboard in sync. Often measured in megahertz or gigahertz. Cloud Computing - Rather than computation occurring 'locally' on one's own computer, the computation is ondistant machines accessible via the internet. Cloud Storage - Rather than the information being stored 'locally' on one's own computer, the information isstored on distant machines accessible via the internet."
+      "The internal 'drummer' or heartbeat that keeps the CPU activities across the chip and the motherboard in sync. Often measured in megahertz or gigahertz."
     ]
   },
   {
     "term": "Cloud",
     "explanations": [
-      "a) In the phrase 'in the cloud' refers to information being stored not on one's own computer but on adistant mass storage device accessible via the internet.",
-      "b) Computing that is done not on one's own computerbut on computers accessed via the internet. Cluster Computer - Also known as a cluster is a supercomputer made up of many smaller computers such as PCsconnected with very fast network hardware."
+      "a) the phrase 'in the cloud' refers to information being stored not on one's computer but on a distant mass storage device accessible via the internet.",
+      "b) Computing that is done not on one's computer but on computers accessed via the internet. "
     ]
   },
   {
     "term": "Comment",
     "explanations": [
-      "Comments are important in programs as they are nonexecuting code that explains to a reader of thecode in plain text what is going on"
+      "Comments are important in programs as they are nonexecuting code that explains to a reader of the code in plain text what is going on."
     ]
   },
   {
     "term": "Comparison",
     "explanations": [
-      "This is an operation that compares things like if the values in two variables are equal. In processingthe equals comparison is done with the double equals: ==. In NetLogo it is done with a single equals: =.Other comparisons are things like not equal and greater than. Compile Time - During the time that a program is being compiled."
+      "This is an operation that compares things like if the values in two variables are equal. In processing the equals comparison is done with the double equals: ==. In NetLogo it is done with a single equals: =. Other comparisons are things like not equal and greater than."
     ]
   },
   {
     "term": "Compiler",
     "explanations": [
-      "A program for translating a program written in one language into code that can be executed. Computer science -",
-      "a) the study of process, data and computation.",
-      "b) A very cool profession. (No bias here. ;-) )."
+      "A program for translating a program written in one language into code that can be executed. "
     ]
   },
   {
@@ -205,13 +234,13 @@
   {
     "term": "Conditional",
     "explanations": [
-      "A control structure such as an if-statement or case-statement that conditionally executes a block ofcode Control structure - Code or statement that changes the order of execution for instance an if-statement conditionallyexecutes code while a loop may perform a section of code repeatedly."
+      "A control structure such as an if-statement or case-statement that conditionally executes a block of code."
     ]
   },
   {
     "term": "Core",
     "explanations": [
-      "A sub-processor on a chip. Usually used when there are more than one processor on a single chip. ModernCPU chips often have several cores. Customer Base - The set of loyal customers a company or other software supplier supports. Data Abstraction - Giving a name to a complex set of data that forms a single concept thereby removing the needto always refer to all the detail. To hide the details of data by referring to the whole rather than the parts. Forexample a complex data structure may be necessary to describe all the details of a car but could collectively bereferred to as simply the car type. All the data of the car could for instance be created, copied, sorted, deletedwithout mentioning all the component parts. Data Mining - Using algorithms to infer complex results for masses of data such as sensor data or the world's webpages. Generally to be data mining most of the data available is not relevant but large enough amounts arethat it is nontrivial to draw conclusions. Data intensive - A program that spends most of its time waiting for data from memory rather than computing.Sometimes called memory intensive."
+      "A sub-processor on a chip. Usually used when there is more than one processor on a single chip. Modern CPU chips often have several cores."
     ]
   },
   {
@@ -223,13 +252,13 @@
   {
     "term": "Declaration",
     "explanations": [
-      "A statement in a program that attaches a property to a symbol. For example in Processing you mightsay: 'float x' which means that the variable x has the property that it is a floating point number. In processingyou have to declare variables giving them a type before you use them."
+      "A statement in a program that attaches a property to a symbol. For example, in Processing you might say: 'float x' which means that the variable x has the property that it is a floating point number. In processing have to declare variables giving them a type before you use them."
     ]
   },
   {
     "term": "Device",
     "explanations": [
-      "A unit or piece of hardware with a specific purpose such as a disk, keyboard, audio board, etc. Digital Divide - The societal advantages for those with internet or computer access over those who do not haveaccess or have limited access"
+      "A unit or piece of hardware with a specific purpose such as a disk, keyboard, audio board, etc."
     ]
   },
   {
@@ -241,7 +270,7 @@
   {
     "term": "Disk",
     "explanations": [
-      "A magnetic storage device that records data on a spinning disk. The bulk of long term storage on a today'scomputers is 'on the disk'. The main file system is usually found here. Compare with the term SSD"
+      "A magnetic storage device that records data on a spinning disk. The bulk of long-term storage on a computer is 'on the disk'. The main file system is usually found here. Compared with the term SSD"
     ]
   },
   {
@@ -253,109 +282,93 @@
   {
     "term": "Embedded",
     "explanations": [
-      "A computer is said to be embedded if it is integrated into the function of a physical item. The computersin a car are embedded in the car. One speaks of embedded systems."
+      "A computer is said to be embedded if it is integrated into the function of a physical item. The computers in a car are embedded in the car. One speaks of embedded systems."
     ]
   },
   {
     "term": "Emacs",
     "explanations": [
-      "A classic highly reconfigurable editor that challenges vi for dominance of UNIX based text editing."
+      "A classic highly reconfigurable editor that challenges vi for dominance of UNIX-based text editing."
     ]
   },
   {
     "term": "Encryption",
     "explanations": [
-      "To use a code to render data unintelligible. An encryption key is data that when supplied to anencryption program and the original data to be encrypted yields the encrypted data. A decryption key whensupplied with a decryption program and encrypted data the recovers the original data. Many times these twokeys are the same."
+      "To use a code to render data unintelligible. An encryption key is data that when supplied to an encryption program and the original data to be encrypted yields the encrypted data. A decryption key when supplied with a decryption program and encrypted data recovers the original data. Many times these two keys are the same."
     ]
   },
   {
     "term": "Executable",
-    "explanations": [
-      "A file that can be executed by the operating system."
-    ]
+    "explanations": ["A file that can be executed by the operating system."]
   },
   {
     "term": "Expression",
     "explanations": [
-      "Is a language construct that can be used to produce a value. For example sqrt(3) or 4+7*88. External hard drive - A disk that is a peripheral. File Extension - when naming a file there is often a part after the last period in the file name called the file extension that indicates the type of the file such as pdf, jpg, txt, etc."
+      "Is a language construct that can be used to produce a value. For example sqrt(3) or 4+7*88."
     ]
   },
   {
     "term": "File",
     "explanations": [
-      "a single block of information allocated by an operating system for retention beyond the execution time of any program. File System - A formatting of memory such as a disk by the Operating System to organize that memory into a hierarchy of directories and files. It can mean the format standard or the formatted memory."
-    ]
-  },
-  {
-    "term": "Flag",
-    "explanations": [
-      "A term used in reference to a Boolean variable used to answer an true or false question. For example. Forexample: the variable errorFlg is used in the program to indicate if an error has been found. Often flagvariables are used as a parameter to control some aspect of a function or program. For example: the variablenoOutput is used to control if the program is to produce any visible output or not. Floating Point Number - A number with a decimal in it like 3.141592653589. Front-side Bus - It is a connection between the CPU and fast components of your computer like RAM and GPU(See the term Bus). Technically it is a term for a specific Intel transport mechanism but can be used in thisgeneral way Functional Abstraction - Abstraction to what a section of code will do rather that the details of how it does it. Afunction definition allows for abstracting the contained code to a simple call to a function."
+      "a single block of information allocated by an operating system for retention beyond the execution time of any program."
     ]
   },
   {
     "term": "Function",
     "explanations": [
-      "A standalone segment of code with a clear set of inputs and output that performs a specific functionand returns a value. It is essentially a procedure that returns a value. Giga- - A prefix for a billion, (109 ) as in a gigabyte or gigahertz or gigabananas (billion bananas). Global variable - A variable that is accessible from anywhere in the code. It is also persistent for the duration ofthe program."
+      "A standalone segment of code with a clear set of inputs and output that performs a specific function and returns a value. It is essentially a procedure that returns a value."
     ]
   },
   {
     "term": "GPU",
     "explanations": [
-      "Graphics Processing Unit. It is a CPU that processes instructions specifically targeted at graphics processing.It is highly parallel with hundreds to thousands of simple cores."
+      "Graphics Processing Unit. It is a CPU that processes instructions specifically targeted at graphics processing. It is highly parallel with hundreds to thousands of simple cores."
     ]
   },
   {
     "term": "Grammar",
-    "explanations": [
-      "The formal specification of the syntax of a language Graphics card - Is a circuit board containing a CPU that processes instructions specifically targeted at graphicsprocessing. This is especially useful for games and simulation programming. Graphics processing - Image construction and manipulation. HSB or HSV - Stands for 'Hue, Saturation, Brightness or Value'. It is a way of specifying a color by giving theamount of each of three contributing factors to make the color: Hue is the color in the color wheel, Saturationis the amount of color versus white, Value is how bright the color is or distance from black."
-    ]
+    "explanations": ["The formal specification of the syntax of a language."]
   },
   {
     "term": "HTML",
     "explanations": [
-      "Hypertext Markup Language. A language used to write internet based documents that can refer to eachother."
+      "Hypertext Markup Language. A language used to write internet-based documents that can refer to each other."
     ]
   },
   {
     "term": "HW",
-    "explanations": [
-      "abbreviation for hardware. Hard drive - Same as disk."
-    ]
+    "explanations": ["abbreviation for hardware."]
   },
   {
     "term": "Hardware",
-    "explanations": [
-      "Physical components of a computer or related equipment."
-    ]
+    "explanations": ["Physical components of a computer or related equipment."]
   },
   {
     "term": "Hertz",
     "explanations": [
-      "A cycle or oscillation per second. A second hand on a standard analog clock ticks at 1 hertz. The clock onmost computers is currently on the order of 1 gigahertz."
+      "A cycle or oscillation per second. A second hand on a standard analog clock ticks at 1 hertz. The clock on most computers is currently on the order of 1 gigahertz."
     ]
   },
   {
     "term": "Hexadecimal",
     "explanations": [
-      "The base 16 number system (compare with binary). It is often used to express binary numbers inshorter strings than binary or octal. Counting to 20 using two hex symbols: 01, 02, 03, 04, 05, 06, 07, 08, 09,0a, 0b, 0c, 0d, 0e, 0f, 10, 11, 12, 13, 14."
+      "The base 16 number system (compare with binary). It is often used to express binary numbers in shorter strings than binary or octal. Counting to 20 using two hex symbols: 01, 02, 03, 04, 05, 06, 07, 08, 09,0a, 0b, 0c, 0d, 0e, 0f, 10, 11, 12, 13, 14."
     ]
   },
   {
     "term": "Hex",
-    "explanations": [
-      "Short for Hexadecimal. High Level Language - A language that is NOT similar to the one that runs on the hardware and deals more complexdata types and control structures than the hardware. Languages like Java, C, C++, Python... I/O - Input and output."
-    ]
+    "explanations": ["Short for Hexadecimal."]
   },
   {
     "term": "IDE",
     "explanations": [
-      "Integrated Development Environment. A software tool to help you write software. Examples include theopen source: Eclipse and NetBeans and the proprietary Microsoft Visual Studio."
+      "Integrated Development Environment. A software tool to help you write software. Examples include the open source: Eclipse and NetBeans and the proprietary Microsoft Visual Studio."
     ]
   },
   {
     "term": "Indenting",
     "explanations": [
-      "Indenting is a MUST in your program. Indenting shows the reader what is the intended nesting of thecode. Indenting is a critical tool in debugging. Always, always indent!!"
+      "Indenting is a MUST in your program. Indenting shows the reader what is the intended nesting of the code. Indenting is a critical tool in debugging. Always, always indent!!"
     ]
   },
   {
@@ -380,7 +393,7 @@
   {
     "term": "Internet",
     "explanations": [
-      "A network of computers, routers, and other networks interconnected with a specific network communica- tions protocol (TCP/IP)."
+      "A network of computers, routers, and other networks interconnected with a specific network communications protocol (TCP/IP)."
     ]
   },
   {
@@ -392,7 +405,7 @@
   {
     "term": "IOT",
     "explanations": [
-      "Internet of Things. Physical objects with embedded computers that represent the object on the internet. Forexample, a washing machine may be on the internet allowing an owner to 'start the wash' remotely. Around2021 the number of IOT devices exceeded the number of people and continues to grow."
+      "Internet of Things. Physical objects with embedded computers that represent the object on the internet. For example, a washing machine may be on the internet allowing an owner to 'start the wash' remotely. Around 2021 the number of IOT devices exceeded the number of people and continues to grow."
     ]
   },
   {
@@ -404,49 +417,48 @@
   {
     "term": "Keyword",
     "explanations": [
-      "A reserved word in the language that has special meaning in the language and cannot be appropriatedfor other purposes. For example 'for' in Processing or C++. Kilo- - A prefix for a thousand, as in a kilobyte."
-    ]
-  },
-  {
-    "term": "Kilobyte",
-    "explanations": [
-      "may be 1000 bytes or 210 bytes which is equal to 1024 bytes depending on situation."
+      "A reserved word in the language that has special meaning in the language and cannot be appropriated for other purposes. For example 'for' in Processing or C++."
     ]
   },
   {
     "term": "Linux",
     "explanations": [
-      "An operating system authored by Linus Torvalds as a free operating system. Companies that distributeLinux make their money in configuration and support. It is based on the UNIX operating systems. Local variable - A variable that is accessible only in a portion of the code. Generally, within a procedure and iscreated as you enter a procedure and destroyed as you leave. Logic Error - A semantic error. Note: Compiler writers may draw a subtle distinction between the two."
+      "An operating system authored by Linus Torvalds as a free operating system. Companies that distribute Linux make their money in configuration and support. It is based on the UNIX operating system."
     ]
   },
   {
     "term": "Loop",
     "explanations": [
-      "A control structure in the code that causes repeated execution of a section of code. Machine Instructions - The instructions executed by a CPU. The bit level instructions of a computer. Machine Learning - Is a branch of Artificial Intelligence that uses statistical modeling to learn from experience."
+      "A control structure in the code that causes repeated execution of a section of code."
     ]
   },
   {
     "term": "Malware",
     "explanations": [
-      "Software that is surreptitiously installed on a computer to damage, compromise, or acquire data. It mayalso be used to for unauthorized accessibility to the function of the computer e.g. cause damage to a machinecontrolled by the computer"
+      "Software that is surreptitiously installed on a computer to damage, compromise, or acquire data. It may also be used for unauthorized accessibility to the function of the computer e.g. cause damage to a machine controlled by the computer"
     ]
   },
   {
     "term": "Meerkat",
     "explanations": [
-      "A burrowing social mammal of the mongoose family found in southern Africa. Mega- - A prefix for a million, (106 ) as in a megabyte or megahertz."
+      "A burrowing social mammal of the mongoose family found in southern Africa."
     ]
   },
   {
     "term": "Memory",
     "explanations": [
-      "Addressable storage for storage and retrieval of bytes of data. The term memory generally refers to thememory that is off CPU. See the terms Cache and RAM. Message Passing - A way to pass information between processes, machines, or threads that are running in parallel."
+      "Addressable storage for storage and retrieval of bytes of data. The term memory generally refers to memory that is off the CPU. See the terms Cache and RAM."
     ]
   },
   {
     "term": "Motherboard",
     "explanations": [
-      "The main circuit board generally connecting most major components of a computer such as CPU,memory, I/O devices. Multi-Core processor - a chip with multiple processors and cache memory to speed execution. Nano- -",
+      "The main circuit board generally connects most major components of a computer such as CPU, memory, and I/O devices."
+    ]
+  },
+  {
+    "term": "Nano",
+    "explanations": [
       "a) a prefix for a billionth, as in a nanosecond or a nanometer.",
       "b) a very small thing like nanotechnology."
     ]
@@ -460,13 +472,13 @@
   {
     "term": "Nest",
     "explanations": [
-      "Nesting is an important feature of most computer programs and languages. To nest a piece of code in anotherpiece of code is to use the first code as a integral block of function in the second piece of code. For example wecould nest a for statement in the body of another for statement."
+      "Nesting is an important feature of most computer programs and languages. To nest a piece of code in another piece of code is to use the first code as an integral block of function in the second piece of code. For example, we could nest a for statement in the body of another for statement."
     ]
   },
   {
     "term": "NetLogo",
     "explanations": [
-      "An easy to use agent based modeling language and development environment based on the classic Logolanguage"
+      "An easy-to-use agent-based modeling language and development environment based on the classic Logo language"
     ]
   },
   {
@@ -478,43 +490,41 @@
   {
     "term": "Northbridge",
     "explanations": [
-      "connects the CPU to high speed data components such as memory and graphics cards."
+      "connects the CPU to high-speed data components such as memory and graphics cards."
     ]
   },
   {
     "term": "OS",
-    "explanations": [
-      "Operating System. Object Oriented programming - A programming style in which variables and functions are associated in an objectand visibility of the contents of the object is constrained. For example in Scratch, a sprite 'owns' its own localvariables and scripts/threads."
-    ]
+    "explanations": ["Operating System."]
   },
   {
     "term": "Object",
     "explanations": [
-      "A collection of variables and functions brought together in a programming system to represent a physicalthing, its data and its function."
+      "A collection of variables and functions brought together in a programming system to represent a physical thing, its data, and its function."
     ]
   },
   {
     "term": "Octal",
     "explanations": [
-      "The base 8 number system (compare with binary). It is often used to express binary numbers in shorterstrings. Counting to 10 using two octal symbols: 01, 02, 03, 04, 05, 06, 07, 10, 11, 12. On Chip - Generally means the functionality is on the CPU chip or the chip under discussion. Can refer to hardwareas in 'The north bridge can now be found on chip' or refer to execution as in 'the data and instructions arecached on chip'. Open Source - An application or software which is provided with the source code, usually with few restrictions, forrepurposing or augmenting. Operating System - The program that runs on the computer hardware creating information objects such as filesand processes and assures the fair and secure allocation of processor time, access to files, access to devices, andother resources. Accounts and access control of data is commonly provided giving privacy/security"
+      "The base 8 number system (compare with binary). It is often used to express binary numbers in shorter strings. Counting to 10 using two octal symbols: 01, 02, 03, 04, 05, 06, 07, 10, 11, 12."
     ]
   },
   {
     "term": "Operator",
     "explanations": [
-      "Is a computational or mathematical operator such as ==, equal, *, +, /. It generally is used in-betweenthe values to be used as input for the operator (called operands). For example 1+2."
+      "Is a computational or mathematical operator such as ==, equal, *, +, /. It generally is used in between the values to be used as input for the operator (called operands). For example 1+2."
     ]
   },
   {
     "term": "PC",
     "explanations": [
-      "Personal Computer or sometimes stands for a Personal Computer running the Windows operating system."
+      "Personal Computer sometimes stands for a Personal Computer running the Windows operating system."
     ]
   },
   {
     "term": "Packet",
     "explanations": [
-      "A unit of information into which data is broken up for transmission in a network or by other means. Forexample a stream or file of data would be broken up into packets and sent separately across the internet. Pairs Programming - A programming methodology that has two programmers set down at a single keyboard anddisplay to program as a team effort. Producing more and better working code. Parallel Computing - The field of Computer Science that deals with algorithms, techniques and hardware thatenables simultaneous execution of many streams of instructions."
+      "A unit of information into which data is broken up for transmission in a network or by other means. For example, a stream or file of data would be broken up into packets and sent separately across the internet."
     ]
   },
   {
@@ -526,44 +536,40 @@
   {
     "term": "Peripheral",
     "explanations": [
-      "A physical device used by a computer that is not part of the physical box containing CPU and memory.A printer is an example. Peta- - A prefix for a quadrillion (1015 ) as in a petabyte."
+      "A physical device used by a computer that is not part of the physical box containing CPU and memory. A printer is an example."
     ]
   },
   {
     "term": "Port",
     "explanations": [
-      "A physical socket on a computer for attaching the computer to external devices such as a printer or a router. Powers of Two - A number that is the product of two multiplied together many times. The k th power of two isdenoted 2k . Powers of two are very important in computing because k bits can be used to number 2k thingsin binary. The first few powers of two are: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096."
+      "A physical socket on a computer for attaching the computer to external devices such as a printer or a router."
     ]
   },
   {
     "term": "Procedure",
     "explanations": [
-      "A standalone segment of code with a clear set of inputs and output that performs a specific function.Compare with function."
+      "A standalone segment of code with a clear set of inputs and output that performs a specific function. Compare with function."
     ]
   },
   {
     "term": "Process",
-    "explanations": [
-      "An operating system construct that is a running program."
-    ]
+    "explanations": ["An operating system construct that is a running program."]
   },
   {
     "term": "Processing",
     "explanations": [
-      "A language originally designed for artists to allow them to do simple graphical design programs in amovie like paradigm."
+      "A language originally designed for artists to allow them to do simple graphical design programs in an amovie-like paradigm."
     ]
   },
   {
     "term": "Programming",
     "explanations": [
-      "Constructing a program; usually in a high level language. The art of instructing computers how tostore, retrieve, and process data automatically."
+      "Constructing a program; usually in a high-level language. The art of instructing computers how to store, retrieve, and process data automatically."
     ]
   },
   {
     "term": "Program",
-    "explanations": [
-      "An implementation of an algorithm."
-    ]
+    "explanations": ["An implementation of an algorithm."]
   },
   {
     "term": "Proprietary",
@@ -574,13 +580,13 @@
   {
     "term": "Protocol",
     "explanations": [
-      "A standard for communication between pieces of hardware or between pieces of software that allowsinformation and/or commands to be exchanged."
+      "A standard for communication between pieces of hardware or between pieces of software that allows information and/or commands to be exchanged."
     ]
   },
   {
     "term": "RAM",
     "explanations": [
-      "Random Access Memory. Generally refers to the memory that is not in the CPU and not a disk. In generalit is volatile and anything in it is lost when the computer is turned off. It's used to temporarily store currentinstructions and data during execution amongst other things."
+      "Random Access Memory. Generally refers to the memory that is not in the CPU and not a disk. In general, it is volatile and anything in it is lost when the computer is turned off. It's used to temporarily store current instructions and data during execution amongst other things."
     ]
   },
   {
@@ -592,13 +598,13 @@
   {
     "term": "RGB",
     "explanations": [
-      "Stands for 'Red, Green, Blue'. It is a way of specifying a color by giving the amount of each of threecontributing primary colors to make the desired color."
+      "Stands for 'Red, Green, Blue'. It is a way of specifying a color by giving the amount of each of three contributing primary colors to make the desired color."
     ]
   },
   {
     "term": "Reboot",
     "explanations": [
-      "To restart a computer as if the computer had been powered down even though it was turned on andpossibly running."
+      "To restart a computer as if the computer had been powered down even though it was turned on and possibly running."
     ]
   },
   {
@@ -610,37 +616,35 @@
   {
     "term": "Router",
     "explanations": [
-      "A networking device that forwards data packets between computer networks and may also be used toconnect computers to a network."
+      "A networking device that forwards data packets between computer networks and may also be used to connect computers to a network."
     ]
   },
   {
     "term": "Shell",
     "explanations": [
-      "A character based program that gives the user simple and programmatic access to the operating system via commands"
+      "A character-based program that gives the user simple and programmatic access to the operating system via commands"
     ]
   },
   {
     "term": "STEM",
     "explanations": [
-      "Science Technology Engineering and Mathematics - The set of fields many educational institutions andgovernments are focusing on to improve enrollments and retention."
+      "Science Technology Engineering and Mathematics - The set of fields many educational institutions and governments are focusing on to improve enrollments and retention."
     ]
   },
   {
     "term": "SW",
-    "explanations": [
-      "abbreviation for software. Scalable Computing - An application supported on an amount of hardware that automatically adjusts to the size ofthe demand thereby saving money by using less hardware when demand is light an d more when the demandis heavy."
-    ]
+    "explanations": ["abbreviation for software."]
   },
   {
     "term": "Scratch",
     "explanations": [
-      "A language created by MIT containing colorful characters and easy for beginners to write programswithout syntax errors"
+      "A language created by MIT containing colorful characters and easy for beginners to write programs without syntax errors"
     ]
   },
   {
     "term": "Semantics",
     "explanations": [
-      "The meaning of statements in a language as distinct from the syntax. Semantic Error - A legal program that creates incorrect results for some input."
+      "The meaning of statements in a language as distinct from the syntax."
     ]
   },
   {
@@ -651,124 +655,115 @@
   },
   {
     "term": "Simulation",
-    "explanations": [
-      "Modeling the behaviors and conditions of the real world."
-    ]
+    "explanations": ["Modeling the behaviors and conditions of the real world."]
   },
   {
     "term": "SoC",
     "explanations": [
-      "System on a chip. A single integrated circuit that integrates all or most components of a computer includingCPU, memory, I/O and bus. May including devices such as wireless modems. Contrast with motherboard-basedPC architectures. Examples of SoCs include Apple M1, Snapdragon, and ARMxxx chips."
+      "System on a chip. A single integrated circuit that integrates all or most components of a computer including CPU, memory, I/O, and bus. May include devices such as wireless modems. Contrast with motherboard-based PC architectures. Examples of SoCs include Apple M1, Snapdragon, and ARMxxx chips."
     ]
   },
   {
     "term": "Software",
     "explanations": [
-      "A set of information that includes at least one program and optionally many programs and data files.The set of information is generally related and used with a specific goal in mind such as image processingsoftware. Solid state disk (SSD) - Uses chips to emulate a rotating disk but with no moving parts. Much faster than rotating mechanical disks but currently not as much storage and more expensive."
+      "A set of information that includes at least one program and optionally many programs and data files. The set of information is generally related and used with a specific goal in mind such as image processing software."
     ]
   },
   {
     "term": "Southbridge",
     "explanations": [
-      "connects the CPU to lower speed data components such as internet, keyboard, audio, USB, etc. Speed of Light - Generally means the speed of light in a vacuum. It is about 1 foot per billionth of a second."
+      "connects the CPU to lower speed data components such as internet, keyboard, audio, USB, etc."
     ]
   },
   {
     "term": "Statement",
     "explanations": [
-      "A basic statement or command in program or the basic unit of a grammar of a programming language.For instance: the three assignment statements were followed by an if statement."
+      "A basic statement or command in the program or the basic unit of a grammar of a programming language. For instance: the three assignment statements were followed by an if statement."
     ]
   },
   {
     "term": "String",
     "explanations": [
       "a) An ordered sequence such as a string of bits or characters.",
-      "b) a string of characters. Strongly Typed - A language is strongly typed if all type errors can be found at compile time."
+      "b) a string of characters."
     ]
   },
   {
     "term": "Supercomputer",
-    "explanations": [
-      "A computer with a much higher than average performance."
-    ]
+    "explanations": ["A computer with a much higher than average performance."]
   },
   {
     "term": "Syntax",
     "explanations": [
-      "The grammar for a language or the rules to decide if a statement is in the language but not the meaning. Syntax Error - Creating a illegal program in the language by making an error such as a typo, insertion, deletion, ormisuse of an element of the language. E.g. leaving off a trailing semicolon in Processing or misspelling a keyword. System Calls - a programmatic interface to operating system features"
+      "The grammar for a language or the rules to decide if a statement is in the language but not the meaning."
     ]
   },
   {
     "term": "Telepresence",
     "explanations": [
-      "A set of technologies which allows a person to feel as if they were present, to give the appearance ofbeing present, and/or to have an effect as if present. Tera- - A prefix for a trillion (1012 ) as in a terabyte."
+      "A set of technologies which allows a person to feel as if they were present, to give the appearance of being present, and/or to have an effect as if present."
     ]
   },
   {
     "term": "Text",
     "explanations": [
-      "a) just the set of bits that represents a stream of symbols in a language. It does not include any formattinginformation such as font or color.",
-      "b) any representation of a set of symbols. c) text encoded in ASCII."
+      "a) just the set of bits that represents a stream of symbols in a language. It does not include any information such as font or color.",
+      "b) any representation of a set of symbols.",
+      "c) text encoded in ASCII."
     ]
   },
   {
     "term": "Thread",
     "explanations": [
-      "A thread is a 'lightweight' subunit of execution of a process that can run in parallel with other threadsin the process. It is a way to have parts of a process run simultaneously. Time sharing - Fairly splitting up time between running processes."
+      "A thread is a 'lightweight' subunit of execution of a process that can run in parallel with other threads in the process. It is a way to have parts of a process run simultaneously."
     ]
   },
   {
     "term": "Tractable",
-    "explanations": [
-      "Solvable in a practical amount of time."
-    ]
+    "explanations": ["Solvable in a practical amount of time."]
   },
   {
     "term": "Type",
     "explanations": [
-      "The kind of data that can be stored or referred to and has a specific set of operations that apply to it such asaddition is an operation that is used on integers. Popular types are int, float, boolean. Processing supportstypes like color and string as well."
+      "The kind of data that can be stored or referred to and has a specific set of operations that apply to it such as addition is an operation that is used on integers. Popular types are int, float, and boolean. Processing supports types like color and string as well."
     ]
   },
   {
     "term": "UAV",
-    "explanations": [
-      "Unmanned Aerial Vehicle and autonomous drone."
-    ]
+    "explanations": ["Unmanned Aerial Vehicle and autonomous drone."]
   },
   {
     "term": "UNIX",
     "explanations": [
-      "A variety of operating system that originated in the 70s as an independent project in Bell Labs and hasgrown to be the basis of many of today's operating systems including Linux and Apple distributions ."
+      "A variety of operating systems that originated in the 70s as an independent project in Bell Labs and has grown to be the basis of many of today's operating systems including Linux and Apple distributions ."
     ]
   },
   {
     "term": "URL",
     "explanations": [
-      "A Uniform Resource Locator or web address, is a reference to a web resource that specifies its location on acomputer network and a mechanism for retrieving it such as HTTP or FTP"
+      "A Uniform Resource Locator or the web address is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it such as HTTP or FTP"
     ]
   },
   {
     "term": "Usagi",
-    "explanations": [
-      "The Japanese word for rabbit."
-    ]
+    "explanations": ["The Japanese word for rabbit."]
   },
   {
     "term": "USB",
     "explanations": [
-      "Universal Serial Bus. A popular standard for creating a data path between computers and peripherals.It includes the capability of powering a device. More recently USB has been used as a power source alone,disregarding its data protocols."
+      "Universal Serial Bus. A popular standard for creating a data path between computers and peripherals. It includes the capability of powering a device. More recently USB has been used as a power source alone, disregarding its data protocols."
     ]
   },
   {
     "term": "Unicode",
     "explanations": [
-      "A method for encoding a string of symbols as bits. This set of schemes can be used to representnearly any symbol including Chinese. However, Klingon (plqaD) is not currently in the standard. However:http://en.wikipedia.org/wiki/ConScript Unicode Registry."
+      "A method for encoding a string of symbols as bits. This set of schemes can be used to represent nearly any symbol including Chinese."
     ]
   },
   {
     "term": "Variable",
     "explanations": [
-      "A place in a running program where data is stored. For example the variable x might contain a numberlike 42. Virtual Machine - A virtual machine is a software implementation of a machine that executes programs like aphysical machine. The machine that is mimicked need not really have a hardware implementation but onlyexist as a virtual machine."
+      "A place in a running program where data is stored. For example, the variable x might contain a number like 42."
     ]
   },
   {
@@ -780,13 +775,309 @@
   {
     "term": "Vi",
     "explanations": [
-      "The classic text editor on a UNIX machine. Generally available on all UNIX based operating systems. The modern version of vi is vim."
+      "The classic text editor on a UNIX machine. Generally available on all UNIX-based operating systems. The modern version of vi is vim."
     ]
   },
   {
     "term": "Windows",
     "explanations": [
       "The proprietary operating system distributed by Microsoft."
+    ]
+  },
+  {
+    "term": "Computer science",
+    "explanations": [
+      "a) the study of process, data and computation.",
+      "b) A very cool profession. (No bias here. ;-) )."
+    ]
+  },
+
+  {
+    "term": "Cloud Computing",
+    "explanations": [
+      "Rather than computation occurring 'locally' on one's computer, the computation is on distant machines accessible via the internet."
+    ]
+  },
+  {
+    "term": "Cloud Storage",
+    "explanations": [
+      "Rather than the information being stored 'locally' on one's computer, the information is stored on distant machines accessible via the internet."
+    ]
+  },
+  {
+    "term": "Cluster Computer",
+    "explanations": [
+      "Also known as a cluster is a supercomputer made up of many smaller computers such as PCs connected with very fast network hardware."
+    ]
+  },
+  {
+    "term": "Compile Time",
+    "explanations": ["During the time that a program is being compiled."]
+  },
+  {
+    "term": "Control structure",
+    "explanations": [
+      "Code or statement that changes the order of execution for instance an if-statement conditionally executes code while a loop may perform a section of code repeatedly."
+    ]
+  },
+  {
+    "term": "Customer Base",
+    "explanations": [
+      "The set of loyal customers a company or other software supplier supports."
+    ]
+  },
+  {
+    "term": "Data Abstraction",
+    "explanations": [
+      "Giving a name to a complex set of data that forms a single concept thereby removing the need to always refer to all the detail.",
+      "To hide the details of data by referring to the whole rather than the parts. For example, a complex data structure may be necessary to describe all the details of a car but could collectively be referred to as simply the car type.",
+      "All the data of the car could for instance be created, copied, sorted, and deleted without mentioning all the parts."
+    ]
+  },
+  {
+    "term": "Data Mining",
+    "explanations": [
+      "Using algorithms to infer complex results for masses of data such as sensor data or the world's web pages.",
+      "Generally, be data mining most of the data available is not relevant but large enough amounts that it is nontrivial to conclude."
+    ]
+  },
+  {
+    "term": "Data-intensive",
+    "explanations": [
+      "A program that spends most of its time waiting for data from memory rather than computing. Sometimes called memory intensive."
+    ]
+  },
+  {
+    "term": "Digital Divide",
+    "explanations": [
+      "The societal advantages for those with internet or computer access over those who do not have access or have limited access"
+    ]
+  },
+  {
+    "term": "External hard drive",
+    "explanations": ["A disk that is a peripheral."]
+  },
+  {
+    "term": "File Extension",
+    "explanations": [
+      "When naming a file there is often a part after the last period in the file name called the file extension that indicates the type of the file such as pdf, jpg, txt, etc."
+    ]
+  },
+  {
+    "term": "File System",
+    "explanations": [
+      "A formatting of memory such as a disk by the Operating System to organize that memory into a hierarchy of directories and files. It can mean the format standard or the formatted memory."
+    ]
+  },
+  {
+    "term": "Floating Point Number",
+    "explanations": ["A number with a decimal in it like 3.141592653589."]
+  },
+  {
+    "term": "Front-side Bus",
+    "explanations": [
+      "It is a connection between the CPU and fast components of your computer like RAM and GPU(See the term Bus).",
+      "Technically it is a term for a specific Intel transport mechanism but can be used in this general way"
+    ]
+  },
+  {
+    "term": "Functional Abstraction",
+    "explanations": [
+      "Abstraction to what a section of code will do rather than the details of how it does it.",
+      "A function definition allows for abstracting the contained code to a simple call to a function."
+    ]
+  },
+  {
+    "term": "Giga",
+    "explanations": [
+      "A prefix for a billion, (10^9) as in a gigabyte or gigahertz or gigabananas (billion bananas)."
+    ]
+  },
+  {
+    "term": "Global variable",
+    "explanations": [
+      "A variable that is accessible from anywhere in the code. It is also persistent for the duration of the program."
+    ]
+  },
+  {
+    "term": "Graphics card",
+    "explanations": [
+      "Is a circuit board containing a CPU that processes instructions specifically targeted at graphics processing.",
+      "This is especially useful for games and simulation programming."
+    ]
+  },
+  {
+    "term": "Graphics processing",
+    "explanations": ["Image construction and manipulation."]
+  },
+  {
+    "term": "HSB or HSV",
+    "explanations": [
+      "Stands for 'Hue, Saturation, Brightness or Value'.",
+      "It is a way of specifying a color by giving the amount of each of three contributing factors to make the color:",
+      "Hue is the color in the color wheel, Saturation is the amount of color versus white, Value is how bright the color is or distance from black."
+    ]
+  },
+  {
+    "term": "Hard drive",
+    "explanations": ["Same as disk."]
+  },
+  {
+    "term": "High Level Language",
+    "explanations": [
+      "A language that is NOT similar to the one that runs on the hardware and deals more complex data types and control structures than the hardware.",
+      "Languages like Java, C, C++, Python..."
+    ]
+  },
+  {
+    "term": "I/O",
+    "explanations": ["Input and output."]
+  },
+  {
+    "term": "Kilo",
+    "explanations": ["A prefix for a thousand, as in a kilobyte."]
+  },
+  {
+    "term": "Local variable",
+    "explanations": [
+      "A variable that is accessible only in a portion of the code.",
+      "Generally, within a procedure, and created as you enter a procedure and destroyed as you leave."
+    ]
+  },
+  {
+    "term": "Logic Error",
+    "explanations": [
+      "A semantic error.",
+      "Note: Compiler writers may draw a subtle distinction between the two."
+    ]
+  },
+  {
+    "term": "Machine Instructions",
+    "explanations": [
+      "The instructions executed by a CPU.",
+      "The bit level instructions of a computer."
+    ]
+  },
+  {
+    "term": "Machine Learning",
+    "explanations": [
+      "Is a branch of Artificial Intelligence that uses statistical modeling to learn from experience."
+    ]
+  },
+  {
+    "term": "Message Passing",
+    "explanations": [
+      "A way to pass information between processes, machines, or threads that are running in parallel."
+    ]
+  },
+  {
+    "term": "Multi-Core processor",
+    "explanations": [
+      "A chip with multiple processors and cache memory to speed execution."
+    ]
+  },
+  {
+    "term": "Object Oriented Programming",
+    "explanations": [
+      "A programming style in which variables and functions are associated in an object and visibility of the contents of the object is constrained.",
+      "For example in Scratch, a sprite 'owns' its own local variables and scripts/threads."
+    ]
+  },
+  {
+    "term": "On-Chip",
+    "explanations": [
+      "Generally means the functionality is on the CPU chip or the chip under discussion.",
+      "Can refer to hardware as in 'The north bridge can now be found on a chip' or refer to execution as in 'the data and instructions are cached on a chip'."
+    ]
+  },
+  {
+    "term": "Open Source",
+    "explanations": [
+      "An application or software that is provided with the source code, usually with few restrictions, for repurposing or augmenting."
+    ]
+  },
+  {
+    "term": "Operating System",
+    "explanations": [
+      "The program that runs on the computer hardware creating information objects such as files and processes and assures the fair and secure allocation of processor time, access to files, access to devices, and other resources.",
+      "Accounts and access control of data is commonly provided giving privacy/security"
+    ]
+  },
+  {
+    "term": "Pairs Programming",
+    "explanations": [
+      "A programming methodology that has two programmers set down at a single keyboard and display to program as a team effort.",
+      "Producing more and better working code."
+    ]
+  },
+  {
+    "term": "Parallel Computing",
+    "explanations": [
+      "The field of Computer Science that deals with algorithms, techniques, and hardware that enables simultaneous execution of many streams of instructions."
+    ]
+  },
+  {
+    "term": "Peta-",
+    "explanations": ["A prefix for a quadrillion (10^15) as in a petabyte."]
+  },
+  {
+    "term": "Powers of Two",
+    "explanations": [
+      "A number that is the product of two multiplied together many times.",
+      "The kth power of two is denoted 2^k.",
+      "Powers of two are very important in computing because k bits can be used to number 2^k things in binary.",
+      "The first few powers of two are 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096."
+    ]
+  },
+  {
+    "term": "Scalable Computing",
+    "explanations": [
+      "An application supported on an amount of hardware that automatically adjusts to the size of the demand thereby saving money by using less hardware when demand is light and more when the demand is heavy."
+    ]
+  },
+  {
+    "term": "Semantic Error",
+    "explanations": [
+      "A legal program that creates incorrect results for some input."
+    ]
+  },
+  {
+    "term": "Solid state disk (SSD)",
+    "explanations": [
+      "Uses chips to emulate a rotating disk but with no moving parts.",
+      "Much faster than rotating mechanical disks but currently not as much storage and more expensive."
+    ]
+  },
+  {
+    "term": "Strongly Typed",
+    "explanations": [
+      "A language is strongly typed if all type errors can be found at compile time."
+    ]
+  },
+  {
+    "term": "Syntax Error",
+    "explanations": [
+      "Creating an illegal program in the language by making an error such as a typo, insertion, deletion, or misuse of an element of the language.",
+      "E.g. leaving off a trailing semicolon in Processing or misspelling a keyword."
+    ]
+  },
+  {
+    "term": "System Calls",
+    "explanations": ["A programmatic interface to operating system features"]
+  },
+  {
+    "term": "Tera-",
+    "explanations": ["A prefix for a trillion (10^12) as in a terabyte."]
+  },
+  {
+    "term": "Time sharing",
+    "explanations": ["Fairly splitting up time between running processes."]
+  },
+  {
+    "term": "Virtual Machine",
+    "explanations": [
+      "A virtual machine is a software implementation of a machine that executes programs like a physical machine.",
+      "The machine that is mimicked need not have a hardware implementation but only exist as a virtual machine."
     ]
   }
 ]
