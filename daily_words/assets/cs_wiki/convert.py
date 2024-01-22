@@ -39,7 +39,19 @@ def parse_html_to_json(html_file_path, json_file_path):
     with open(json_file_path, 'w', encoding='utf-8') as json_file:
         json.dump(data, json_file, indent=2)
 
+def remove_empty_explanations(json_file_path):
+    with open(json_file_path, 'r') as file:
+        data = json.load(file)
+
+    # Filter out entries with empty explanations
+    filtered_data = [entry for entry in data if entry['explanations']]
+
+    # Save the modified data back to the file
+    with open(json_file_path, 'w') as file:
+        json.dump(filtered_data, file, indent=2)
+
 # Example usage
 html_file_path = r'e:\xbar-scripts\daily_words\cs_wiki\cs_wiki.html'
-json_file_path = r'e:\xbar-scripts\daily_words\cs_wiki\cs_wiki.json'
-parse_html_to_json(html_file_path, json_file_path)
+json_file_path = r'/Users/ziheng/xbar-scripts/daily_words/assets/cs_wiki/cs_wiki.json'
+# parse_html_to_json(html_file_path, json_file_path)
+remove_empty_explanations(json_file_path)
