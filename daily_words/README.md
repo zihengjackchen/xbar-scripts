@@ -1,21 +1,17 @@
-# Leetcode Reminder for xbar
+# Daily Words for xbar
 
 ![Demo](demo.png)
 
 ## Overview
 
-The "Leetcode Reminder" xbar script is designed to motivate and remind you to complete your daily coding challenge on Leetcode. By displaying a countdown to the next day's challenge directly on your menu bar, it serves as a constant reminder and encourages you to stay on track with your daily coding goals. The script is convenient, as this information is always visible on your screen, making it easier to stay focused and committed to your coding practice.
+The "Daily Words" xbar script is designed to present a random word or concept, accompanied by an explanation. This script offers convenience by maintaining the visibility of this information on your screen, aiding in focused learning. Additionally, you have the flexibility to explore words from various sources, including the GRE test, vocab builder textbook, CS glossary, or CS wiki. This versatility allows you to tailor your learning experience to different domains and subjects.
 
 ## Features
+- Random Word Display: The script presents a random word or concept each time it runs, providing variety in your daily learning routine.
+- Explanation Included: Each displayed word or concept is accompanied by an explanation, aiding in a quick understanding of the term.
+- Information Visibility: By having this educational content always visible on your screen, the script makes it easier for you to stay focused on learning.
+- Source Options: Choose words from different sources, including the Magoosh GRE Words, Vocab Builder Textbook, CS Glossary, or CS Wiki. This allows you to tailor your learning experience to various domains and subjects.
 
-- Daily challenge details with links
-- Weekly challenge details (for premium users)
-- Countdown to the next day
-- Streak count
-- LeetCoin count
-- Usable time travel tickets
-- Check-in status
-- Easter egg collection status
 
 ## Configuration
 
@@ -24,14 +20,13 @@ Before using the script, make sure to configure the following variables by eithe
 ![xbar-plugin-browser](xbar-plugin-browser.png)
 - Or filling them manually if it's used alone 
    ```python
-   USERNAME = ""
-   LEETCODE_SESSION = ""
-   CSRFTOKEN = ""
+   API_KEY = ""
+   VAR_CATEGORY = "CS Glossary"
+   PRINT_LENGTH = 50
    ```
 
 ## Variables
-- `USERNAME`: Your leetcode username. Your homepage should be at `https://leetcode.com/<USERNAME>/`
-- `LEETCODE_SESSION` and `CSRFTOKEN`: Go to `leetcode.com` and inspect the network tab. In the Request headers section, you will find two keys `csrftoken` and `LEETCODE_SESSION`. You should copy these values (without the `=` or `;`) into the script. ![how_to_get_tokens](how_to_get_tokens.png)
+- `USERNAME`:
 
 ## Requirements
 - Python 3
@@ -40,14 +35,16 @@ Before using the script, make sure to configure the following variables by eithe
 ## Installation
 1. Make the script executable:
    ```
-   chmod +x leetcode_reminder.py
+   chmod +x daily_words.py
    ```
 2. Add the script to your xbar plugins directory.
 
-## Usage
-Run the script, and it will display the Leetcode information in your menu bar. Clicking on the displayed information will open relevant links, such as the Leetcode homepage and your daily challenge.
 
 ## References
-1. [Leetcode GraphQL API](https://leetcode.com/graphql/)
-2. [Leetcode GraphQL Queries](https://github.com/akarsh1995/leetcode-graphql-queries)
-3. [xbar - The BitBar Replacement](https://xbarapp.com/)
+1. [xbar - The BitBar Replacement](https://xbarapp.com/)
+2. [CS Glossary](http://marvin.cs.uidaho.edu/Teaching/CS112/terms.pdf)
+3. [CS Wiki](https://en.wikipedia.org/wiki/Glossary_of_computer_science)
+4. [Magoosh GRE](https://s3.amazonaws.com/magoosh.resources/magoosh-gre-1000-words_oct01.pdf)
+5. [Vocabulary Builder](https://quizlet.com/805832637/the-vocabulary-builder-workbook-flash-cards/)
+
+
