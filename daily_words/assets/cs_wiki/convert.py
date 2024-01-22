@@ -50,8 +50,27 @@ def remove_empty_explanations(json_file_path):
     with open(json_file_path, 'w') as file:
         json.dump(filtered_data, file, indent=2)
 
+def convert_to_title_case(json_file_path):
+    try:
+        with open(json_file_path, 'r') as file:
+            data = json.load(file)
+
+        # Convert "term" field to title case
+        for entry in data:
+            if 'term' in entry:
+                entry['term'] = entry['term'].title()
+
+        # Save the modified data back to the file
+        with open(json_file_path, 'w') as file:
+            json.dump(data, file, indent=2)
+
+        print("Successfully converted terms to title case.")
+    except json.JSONDecodeError as e:
+        print(f"Error decoding JSON: {e}")
+
 # Example usage
 html_file_path = r'e:\xbar-scripts\daily_words\cs_wiki\cs_wiki.html'
 json_file_path = r'/Users/ziheng/xbar-scripts/daily_words/assets/cs_wiki/cs_wiki.json'
 # parse_html_to_json(html_file_path, json_file_path)
-remove_empty_explanations(json_file_path)
+# remove_empty_explanations(json_file_path)
+convert_to_title_case(json_file_path)
