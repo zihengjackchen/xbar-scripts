@@ -1,4 +1,5 @@
 # xbar-scripts
+Some scripts developed for the open-sourced xbarapp for MacOS. Including a script that shows your daily leetcode status and a separate script that shows a random GRE word or CS concept.
 
 ## Daily LeetCode Status
 
