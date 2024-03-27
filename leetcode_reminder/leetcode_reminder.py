@@ -39,9 +39,11 @@ CSRFTOKEN = os.environ.get('CSRFTOKEN')
 # LEETCODE_SESSION = ""
 # CSRFTOKEN = ""
 
+
 if not (USERNAME and LEETCODE_SESSION and CSRFTOKEN):
-  print("⚠️ EMPTY VARIABLES")
+  print("⚠️")
   print("---")
+  print("EMPTY VARIABLES")
   print("Please fill in the USERNAME, LEETCODE_SESSION, and CSRFTOKEN in the xbar plugin browser.")
   exit()
 
@@ -173,8 +175,9 @@ response = requests.post(endpoint, headers=headers, json=payload, cookies=cookie
 response_json = response.json()
 
 if response.status_code != 200:
-  print("⚠️ SERVER ERROR")
+  print("⚠️")
   print("---")
+  print("SERVER ERROR")
   print(f"Status code: {response.status_code}")
   print("---")
   print("Leetcode Status 🔗| href=https://status.leetcode.com/")
@@ -182,8 +185,9 @@ if response.status_code != 200:
   exit()
 
 if "errors" in response_json:
-  print("⚠️ USERNAME ERROR")
+  print("⚠️")
   print("---")
+  print("USERNAME ERROR")
   print(f"Check your input username")
   print("---")
   print("Leetcode Status 🔗| href=https://status.leetcode.com/")
@@ -191,42 +195,17 @@ if "errors" in response_json:
   exit()
 
 if not response_json['data']['userStatus']['userId']:
-  print("⚠️ TOKEN ERROR")
+  print("⚠️")
   print("---")
+  print("TOKEN ERROR")
   print(f"Check your input tokens")
-  print("---")
   print("Leetcode Status 🔗| href=https://status.leetcode.com/")
-  print("Leetcode Homepage 🔗| href=https://leetcode.com/")
-  exit()
-
-try:
-  # Another API call to get leet coin count
-  leet_coin_url = "https://leetcode.com/points/api/total/"
-  leet_coin_response = requests.get(leet_coin_url, headers=headers, json=payload, cookies=cookies)
-
-  leet_coin = "ERROR"
-  if leet_coin_response.status_code == 200:
-      leet_coin = leet_coin_response.json()['points']
-
-except:
-  print("⚠️ ERROR GETTING LEETCOIN")
   print("---")
-  print("Check your input variables")
-  print("---")
-  print("Leetcode Status 🔗| href=https://status.leetcode.com/")
-  print("Leetcode Homepage 🔗| href=https://leetcode.com/")
-  exit()
+  
+
 
 try:
   # Parsing
-  limit_tickets = 3 - response_json['data']["validTimeTravelTicketCount"] + response_json['data']["redeemedTimeTravelTicketCount"]
-  usable_tickets = min(limit_tickets, leet_coin // 70)
-
-  is_premium = response_json["data"]["userStatus"]["isPremium"]
-  lc_username = response_json["data"]["userStatus"]["username"]
-  checked_in = response_json["data"]["userStatus"]["checkedInToday"]
-  easter_egg_collected = response_json["data"]["isEasterEggCollected"]
-
   title = response_json["data"]["activeDailyCodingChallengeQuestion"]["question"]["title"]
   question_id = response_json["data"]["activeDailyCodingChallengeQuestion"]["question"]["frontendQuestionId"]
   user_status_daily = response_json["data"]["activeDailyCodingChallengeQuestion"]["userStatus"]
@@ -242,6 +221,30 @@ try:
     difficulty_color = color_hard
   elif difficulty == "Medium":
     difficulty_color = color_medium
+
+except:
+  print("⚠️")
+  print("---")
+  print("PARSING ERROR")
+  print("Check your input variables")
+  print("---")
+  print("Leetcode Status 🔗| href=https://status.leetcode.com/")
+  print("Leetcode Homepage 🔗| href=https://leetcode.com/")
+  exit()
+
+if not response_json['data']['userStatus']['userId']:
+  print(f"Daily Challenge 🔗| href=https://leetcode.com{link}")
+  print(f"--{question_id}. {title} | color={difficulty_color} ")
+  print(f"--Difficulty: {difficulty} ({ac_rate:.2f}% Accepted)| color={difficulty_color}")
+  exit()
+
+try:
+  limit_tickets = 3 - response_json['data']["validTimeTravelTicketCount"] + response_json['data']["redeemedTimeTravelTicketCount"]
+
+  is_premium = response_json["data"]["userStatus"]["isPremium"]
+  lc_username = response_json["data"]["userStatus"]["username"]
+  checked_in = response_json["data"]["userStatus"]["checkedInToday"]
+  easter_egg_collected = response_json["data"]["isEasterEggCollected"]
 
   user_status_weekly = response_json["data"]["dailyCodingChallengeV2"]["weeklyChallenges"][-1]["userStatus"]
   link_weekly = response_json["data"]["dailyCodingChallengeV2"]["weeklyChallenges"][-1]["link"]
@@ -289,6 +292,12 @@ try:
     else:
       contest_trend = '➡️'
 
+  
+  
+  
+  
+  
+  
   # Printing the UI
   if user_status_daily == "Finish":
     print(user_status_daily_str)
@@ -302,7 +311,6 @@ try:
   else:
     print(f"{lc_username} 🔗|href=https://leetcode.com/{USERNAME}")
 
-  print(f"--LeetCoin: {leet_coin}")
   if checked_in:
     print(f"--Daily Check-In (Completed)")
   else:
@@ -322,7 +330,6 @@ try:
   print(f"--Status: {user_status_daily_str}")
   print(f"--Countdown: {countdown_full + countdown_color}")
   print(f"--Streak: {streak_days}")
-  print(f"--Usable Time Travel Tickets: {usable_tickets}")
 
   # Do not show weekly problem if not premium
   if is_premium:
@@ -356,8 +363,9 @@ try:
   print("Leetcode Homepage 🔗| href=https://leetcode.com/")
 
 except:
-  print("⚠️ PARSING ERROR")
+  print("⚠️")
   print("---")
+  print("PARSING ERROR")
   print("Check your input variables")
   print("---")
   print("Leetcode Status 🔗| href=https://status.leetcode.com/")
